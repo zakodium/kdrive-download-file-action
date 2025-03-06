@@ -1,0 +1,19 @@
+name: 'Download kDrive file'
+author: 'Zakodium'
+description: 'Download a file from kDrive using a public sharing link'
+inputs:
+  link:
+    description: 'Public sharing link of the file'
+    required: true
+  fileId:
+    description: 'ID of the file to download'
+    required: true
+  destination:
+    description: 'Destination path to save the file'
+    required: true
+  password:
+    description: 'Password of the link, if any'
+    required: false
+runs:
+  using: 'node20'
+  main: 'action.js'
