@@ -54,7 +54,6 @@ export async function downloadKDriveFile(link, fileId, destination, password) {
   await mkdir(path.dirname(resolvedDestination), { recursive: true });
 
   const fileStream = createWriteStream(resolvedDestination);
-  console.log(downloadRequest);
   await pipeline(Readable.fromWeb(downloadRequest.body), fileStream);
 }
 
