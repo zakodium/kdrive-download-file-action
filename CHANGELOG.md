@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/zakodium/kdrive-download-file-action/compare/v1.0.1...v1.1.0) (2025-08-14)
+
+
+### Features
+
+* update Node.js to v24 ([e4f7249](https://github.com/zakodium/kdrive-download-file-action/commit/e4f7249795af0802e1fdffae628e9d3d6dbe01a3))
+
 ## [1.0.1](https://github.com/zakodium/kdrive-download-file-action/compare/v1.0.0...v1.0.1) (2025-03-06)
 
 
