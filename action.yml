@@ -15,5 +15,5 @@ inputs:
     description: 'Password of the link, if any'
     required: false
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'action.js'

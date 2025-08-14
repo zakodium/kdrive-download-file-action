@@ -1,28 +1,28 @@
 {
   "name": "kdrive-download-file-action",
   "private": true,
+  "license": "MIT",
   "version": "1.0.1",
   "description": "Download a file from kDrive using a public sharing link",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zakodium/kdrive-download-file-action.git"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zakodium/kdrive-download-file-action/issues"
   },
   "homepage": "https://github.com/zakodium/kdrive-download-file-action#readme",
   "volta": {
-    "node": "20.18.3"
-  },
-  "devDependencies": {
-    "prettier": "^3.5.3"
-  },
-  "dependencies": {
-    "@actions/core": "^1.11.1"
+    "node": "24.5.0"
   }
 }
